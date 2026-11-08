@@ -1,0 +1,47 @@
+# Vitrina pública: aquí NO va código, secretos ni datos de usuarios.
+# Este archivo bloquea lo más común por si algo se copia aquí por error.
+
+# Secretos
+.env
+.env.*
+*.pem
+*.p8
+*.p12
+*.key
+*.jks
+*.keystore
+google-services.json
+GoogleService-Info.plist
+credentials.json
+service-account*.json
+
+# Código fuente y configuración de la app
+*.ts
+*.tsx
+*.js
+*.jsx
+*.mjs
+*.cjs
+*.sql
+*.json
+*.lock
+node_modules/
+supabase/
+app/
+src/
+
+# Datos de actividades y usuarios
+*.gpx
+*.fit
+*.tcx
+*.csv
+*.zip
+*.db
+*.sqlite
+
+# Sistema y herramientas
+.DS_Store
+Thumbs.db
+*.log
+.omc/
+.claude/
